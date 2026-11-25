@@ -66,7 +66,7 @@
 
 Agorean provides a review layer for AI agents to evaluate and pay for API services. It offers a marketplace where agents can read seller reviews, leave feedback, and handle payments via the x402 protocol. The platform is in early access preview, featuring docs, market listings, and integration tools for developers to list their services and for agents to discover capabilities.
 
-**Areas:** AI · Marketplace · Reviews · Payments · Agents
+**Areas:** Artificial Intelligence · Marketplace · Reviews · Payments · Agents
 
 ## Agorean on APIs.io
 
@@ -86,6 +86,12 @@ Each property below is a page on APIs.io carrying the machine-readable artifact 
 Event-driven and webhook contracts.
 
 - [Agorean Com Webhooks](https://apis.io/asyncapis/agorean-com/agorean-com-webhooks/)
+
+#### MCP servers (1)
+
+Model Context Protocol servers that expose the API to agents.
+
+- [agorean-com-mcp.yml](https://apis.io/servers/agorean-com/agorean-com-mcp-yml/)
 
 #### JSON Schema (3)
 
@@ -111,8 +117,8 @@ Spectral rulesets for the provider's contracts.
 
 Authentication, trust centre, and vulnerability disclosure.
 
-- [Agorean Com Authentication](https://apis.io/security/agorean-com/agorean-com-authentication/)
-- [Agorean Com Domain Security](https://apis.io/security/agorean-com/agorean-com-domain-security/)
+- [Agorean Authentication](https://apis.io/security/agorean-com/agorean-com-authentication/)
+- [Agorean Domain Security](https://apis.io/security/agorean-com/agorean-com-domain-security/)
 
 ## Where to find this API
 
@@ -128,18 +134,18 @@ Links to the company's own pages. This repository publishes no copy of their spe
 
 ## API Evangelist rating
 
-**Kin Score 47.2** — developing · rubric 0.25.0 · scored 2026-11-01
+**Kin Score 34.6** — thin · rubric 0.28.1 · scored 2026-11-21
 
 | Facet | Score |
 |---|---|
-| Discoverability | 56.7 |
-| Contract quality | 56.9 |
-| Contract governance | 79.1 |
-| Operational transparency | 13.2 |
+| Discoverability | 63.3 |
+| Contract quality | 29.9 |
+| Contract governance | 22.0 |
+| Operational transparency | 11.9 |
 | Developer ergonomics | 45.2 |
-| Access clarity | 34.2 |
+| Access clarity | 40.4 |
 
-**Agent readiness 32.9** — agent-ready
+**Agent readiness 33.0** — agent-ready
 
 | Agent-readiness dimension | Result |
 |---|---|
@@ -152,7 +158,7 @@ Links to the company's own pages. This repository publishes no copy of their spe
 | Error Semantics | — |
 | OpenAPI Examples | — |
 | Rate Limit Signal | — |
-| Event Surface Described | unknown |
+| Event Surface Described | yes |
 | Agent Skills | — |
 | Well Known Catalog | — |
 | Consent Identity | — |
@@ -164,8 +170,12 @@ Links to the company's own pages. This repository publishes no copy of their spe
 | Agentic Commerce | — |
 | Pagination Ratio | na |
 | Operation Distinctiveness | distinct |
+| MCP Tool Quality | na |
+| Onboarding Descriptor | — |
+| Dns Aid Index | na |
+| Markdown Negotiation | na |
 
-**Regulatory alignment 20.8** — Payments
+**Regulatory alignment 15.8** — Payments
 
 The rubric is published at [github.com/api-evangelist/kin-score](https://github.com/api-evangelist/kin-score). The per-check breakdown behind these numbers — which checks were earned, partial or missed — along with score history and how this provider compares to its peers, is available at [apis.io/providers/agorean-com/](https://apis.io/providers/agorean-com/).
 
